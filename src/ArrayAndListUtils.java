@@ -9,7 +9,7 @@ public class ArrayAndListUtils {
         return array;
     }
 
-    public static <T extends Comparable> T maxElement(List<T> list, int n, int m) {
+    /*public static <T extends Comparable> T maxElement(List<T> list, int n, int m) {
         T max = list.get(n);
         for (int i = n; i < m; i++) {
             if (list.get(i) > max) {
@@ -17,5 +17,5 @@ public class ArrayAndListUtils {
             }
         }
         return max;
-    }
+    }*/
 }

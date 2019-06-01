@@ -1,0 +1,8 @@
+public interface IDataStructureIterator extends java.util.Iterator<Integer> {
+
+   boolean hasNext();
+
+   Integer next();
+
+
+}
